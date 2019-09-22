@@ -1,0 +1,47 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "GesParcCFC",
+    "packageName": "com.cfc.gesparc",
+    "packageFolder": "com/cfc/gesparc",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.3.1",
+    "jwtSecretKey": "OWQ2MDQyYWU5Njc0YjY4NzlhZDRlNWQ5YWJhZjk0N2JkYmQzMmU5YmE4ZjIxY2UzMjRhOTczM2UyMzk3YmY2MDFiZjZjZmJlNTllYTVjYzRiMDI1MzhlZDZkMGRhOTQyNGE0YTJmNWJjMTc4ODg4OTlkNDI4YzkzMjE2ZjExZTc=",
+    "embeddableLaunchScript": false,
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "fouetieu",
+  "repository-name": "cfc-gesparc-app"
+}
